@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481EEF781CC0F3B300C0A72E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481EEF771CC0F3B300C0A72E /* QuartzCore.framework */; };
+		4823C8C91CCA0EA7000732F0 /* FengTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4823C8C81CCA0EA7000732F0 /* FengTextFieldViewController.swift */; };
+		4842C92C1CBB3A3700E966BA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4842C92B1CBB3A3700E966BA /* MapKit.framework */; };
+		4842C92F1CBB3AC100E966BA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4842C92D1CBB3A4100E966BA /* CoreLocation.framework */; };
+		4842C9311CBB453600E966BA /* FengLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842C9301CBB453600E966BA /* FengLabelViewController.swift */; };
+		486B293E1D11410C0006604C /* FengTextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486B293D1D11410C0006604C /* FengTextViewViewController.swift */; };
+		486B29401D1146800006604C /* FengViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486B293F1D1146800006604C /* FengViewViewController.swift */; };
+		486B29421D1146B70006604C /* FengImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486B29411D1146B70006604C /* FengImageViewViewController.swift */; };
+		486B29441D1146E20006604C /* FengScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486B29431D1146E20006604C /* FengScrollViewViewController.swift */; };
+		486B29461D11470A0006604C /* FengTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486B29451D11470A0006604C /* FengTableViewViewController.swift */; };
+		486B29481D11472A0006604C /* FengCollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486B29471D11472A0006604C /* FengCollectionViewViewController.swift */; };
+		486B294A1D1147530006604C /* FengAlertViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486B29491D1147530006604C /* FengAlertViewViewController.swift */; };
+		486B294C1D1147790006604C /* FengActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486B294B1D1147790006604C /* FengActionSheetViewController.swift */; };
+		486B294E1D11479E0006604C /* FengMKMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486B294D1D11479E0006604C /* FengMKMapViewViewController.swift */; };
+		4873CB251DE6999200EB6CB9 /* FengGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4873CB241DE6999200EB6CB9 /* FengGrammarViewController.swift */; };
+		48B7B04B1CC778930027C404 /* FengButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7B04A1CC778930027C404 /* FengButtonViewController.swift */; };
+		48EAD0691CB79D8500438173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EAD0681CB79D8500438173 /* AppDelegate.swift */; };
+		48EAD06B1CB79D8500438173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EAD06A1CB79D8500438173 /* ViewController.swift */; };
+		48EAD06E1CB79D8500438173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EAD06C1CB79D8500438173 /* Main.storyboard */; };
+		48EAD0701CB79D8500438173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EAD06F1CB79D8500438173 /* Assets.xcassets */; };
+		48EAD0731CB79D8500438173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EAD0711CB79D8500438173 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		481EEF771CC0F3B300C0A72E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4823C8C81CCA0EA7000732F0 /* FengTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengTextFieldViewController.swift; sourceTree = "<group>"; };
+		4842C92B1CBB3A3700E966BA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4842C92D1CBB3A4100E966BA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4842C9301CBB453600E966BA /* FengLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengLabelViewController.swift; sourceTree = "<group>"; };
+		486B293D1D11410C0006604C /* FengTextViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengTextViewViewController.swift; sourceTree = "<group>"; };
+		486B293F1D1146800006604C /* FengViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengViewViewController.swift; sourceTree = "<group>"; };
+		486B29411D1146B70006604C /* FengImageViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengImageViewViewController.swift; sourceTree = "<group>"; };
+		486B29431D1146E20006604C /* FengScrollViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengScrollViewViewController.swift; sourceTree = "<group>"; };
+		486B29451D11470A0006604C /* FengTableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengTableViewViewController.swift; sourceTree = "<group>"; };
+		486B29471D11472A0006604C /* FengCollectionViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengCollectionViewViewController.swift; sourceTree = "<group>"; };
+		486B29491D1147530006604C /* FengAlertViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengAlertViewViewController.swift; sourceTree = "<group>"; };
+		486B294B1D1147790006604C /* FengActionSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengActionSheetViewController.swift; sourceTree = "<group>"; };
+		486B294D1D11479E0006604C /* FengMKMapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengMKMapViewViewController.swift; sourceTree = "<group>"; };
+		4873CB241DE6999200EB6CB9 /* FengGrammarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengGrammarViewController.swift; sourceTree = "<group>"; };
+		48B7B04A1CC778930027C404 /* FengButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengButtonViewController.swift; sourceTree = "<group>"; };
+		48EAD0651CB79D8500438173 /* BasedLearningDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasedLearningDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EAD0681CB79D8500438173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48EAD06A1CB79D8500438173 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48EAD06D1CB79D8500438173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48EAD06F1CB79D8500438173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48EAD0721CB79D8500438173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48EAD0741CB79D8500438173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48EAD0621CB79D8500438173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481EEF781CC0F3B300C0A72E /* QuartzCore.framework in Frameworks */,
+				4842C92F1CBB3AC100E966BA /* CoreLocation.framework in Frameworks */,
+				4842C92C1CBB3A3700E966BA /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48EAD05C1CB79D8500438173 = {
+			isa = PBXGroup;
+			children = (
+				481EEF771CC0F3B300C0A72E /* QuartzCore.framework */,
+				4842C92D1CBB3A4100E966BA /* CoreLocation.framework */,
+				4842C92B1CBB3A3700E966BA /* MapKit.framework */,
+				48EAD0671CB79D8500438173 /* BasedLearningDemo */,
+				48EAD0661CB79D8500438173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48EAD0661CB79D8500438173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48EAD0651CB79D8500438173 /* BasedLearningDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48EAD0671CB79D8500438173 /* BasedLearningDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48EAD0681CB79D8500438173 /* AppDelegate.swift */,
+				48EAD06A1CB79D8500438173 /* ViewController.swift */,
+				4873CB241DE6999200EB6CB9 /* FengGrammarViewController.swift */,
+				4842C9301CBB453600E966BA /* FengLabelViewController.swift */,
+				48B7B04A1CC778930027C404 /* FengButtonViewController.swift */,
+				4823C8C81CCA0EA7000732F0 /* FengTextFieldViewController.swift */,
+				486B293D1D11410C0006604C /* FengTextViewViewController.swift */,
+				486B293F1D1146800006604C /* FengViewViewController.swift */,
+				486B29411D1146B70006604C /* FengImageViewViewController.swift */,
+				486B29431D1146E20006604C /* FengScrollViewViewController.swift */,
+				486B29451D11470A0006604C /* FengTableViewViewController.swift */,
+				486B29471D11472A0006604C /* FengCollectionViewViewController.swift */,
+				486B29491D1147530006604C /* FengAlertViewViewController.swift */,
+				486B294B1D1147790006604C /* FengActionSheetViewController.swift */,
+				486B294D1D11479E0006604C /* FengMKMapViewViewController.swift */,
+				48EAD06C1CB79D8500438173 /* Main.storyboard */,
+				48EAD06F1CB79D8500438173 /* Assets.xcassets */,
+				48EAD0711CB79D8500438173 /* LaunchScreen.storyboard */,
+				48EAD0741CB79D8500438173 /* Info.plist */,
+			);
+			path = BasedLearningDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48EAD0641CB79D8500438173 /* BasedLearningDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EAD0771CB79D8500438173 /* Build configuration list for PBXNativeTarget "BasedLearningDemo" */;
+			buildPhases = (
+				48EAD0611CB79D8500438173 /* Sources */,
+				48EAD0621CB79D8500438173 /* Frameworks */,
+				48EAD0631CB79D8500438173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasedLearningDemo;
+			productName = BasedLearningDemo;
+			productReference = 48EAD0651CB79D8500438173 /* BasedLearningDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48EAD05D1CB79D8500438173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = fengshaohui;
+				TargetAttributes = {
+					48EAD0641CB79D8500438173 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QTA7TH28MV;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 48EAD0601CB79D8500438173 /* Build configuration list for PBXProject "BasedLearningDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48EAD05C1CB79D8500438173;
+			productRefGroup = 48EAD0661CB79D8500438173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48EAD0641CB79D8500438173 /* BasedLearningDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48EAD0631CB79D8500438173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EAD0731CB79D8500438173 /* LaunchScreen.storyboard in Resources */,
+				48EAD0701CB79D8500438173 /* Assets.xcassets in Resources */,
+				48EAD06E1CB79D8500438173 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48EAD0611CB79D8500438173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486B293E1D11410C0006604C /* FengTextViewViewController.swift in Sources */,
+				48B7B04B1CC778930027C404 /* FengButtonViewController.swift in Sources */,
+				4823C8C91CCA0EA7000732F0 /* FengTextFieldViewController.swift in Sources */,
+				486B294C1D1147790006604C /* FengActionSheetViewController.swift in Sources */,
+				486B294E1D11479E0006604C /* FengMKMapViewViewController.swift in Sources */,
+				486B29421D1146B70006604C /* FengImageViewViewController.swift in Sources */,
+				486B29481D11472A0006604C /* FengCollectionViewViewController.swift in Sources */,
+				48EAD06B1CB79D8500438173 /* ViewController.swift in Sources */,
+				486B294A1D1147530006604C /* FengAlertViewViewController.swift in Sources */,
+				4842C9311CBB453600E966BA /* FengLabelViewController.swift in Sources */,
+				486B29461D11470A0006604C /* FengTableViewViewController.swift in Sources */,
+				486B29401D1146800006604C /* FengViewViewController.swift in Sources */,
+				4873CB251DE6999200EB6CB9 /* FengGrammarViewController.swift in Sources */,
+				486B29441D1146E20006604C /* FengScrollViewViewController.swift in Sources */,
+				48EAD0691CB79D8500438173 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48EAD06C1CB79D8500438173 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EAD06D1CB79D8500438173 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48EAD0711CB79D8500438173 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EAD0721CB79D8500438173 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48EAD0751CB79D8500438173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48EAD0761CB79D8500438173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48EAD0781CB79D8500438173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTA7TH28MV;
+				INFOPLIST_FILE = BasedLearningDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyuan.BasedLearningDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		48EAD0791CB79D8500438173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTA7TH28MV;
+				INFOPLIST_FILE = BasedLearningDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyuan.BasedLearningDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48EAD0601CB79D8500438173 /* Build configuration list for PBXProject "BasedLearningDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EAD0751CB79D8500438173 /* Debug */,
+				48EAD0761CB79D8500438173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EAD0771CB79D8500438173 /* Build configuration list for PBXNativeTarget "BasedLearningDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EAD0781CB79D8500438173 /* Debug */,
+				48EAD0791CB79D8500438173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48EAD05D1CB79D8500438173 /* Project object */;
+}
